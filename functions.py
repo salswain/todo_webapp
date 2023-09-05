@@ -1,4 +1,4 @@
-def get_todos(filepath="/Users/salvatoreswain/PycharmProjects/Todoapp/files/todos.txt"):
+def get_todos(filepath="/Users/salvatoreswain/PycharmProjects/todo_webapp/todos.txt"):
     """ Read a text file and return the list of
     to-do items.
     """
@@ -7,7 +7,7 @@ def get_todos(filepath="/Users/salvatoreswain/PycharmProjects/Todoapp/files/todo
     return todos_local
 
 
-def write_todos(todos_arg, filepath="/Users/salvatoreswain/PycharmProjects/Todoapp/files/todos.txt"):
+def write_todos(todos_arg, filepath="/Users/salvatoreswain/PycharmProjects/todo_webapp/todos.txt"):
     """ Write the to-do items list in the text files."""
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
