@@ -1,0 +1,6 @@
+Go to the Gym at 2pm
+Add new todo
+Learn Django
+Build a tech patent
+Create art with code
+
